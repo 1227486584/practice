@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient(bottom, darkgray, burlywood,cornflowerblue);
+}
+#page{
+    width: 100%;
+    height: 100%;
+    /*background-color: pink;*/
+}
+#middle{
+    position: relative;
+    top: 50px;
+
+}
+#sider{
+    position: absolute;
+    top: 0;
+    left: 30px;
+    width: 20%;
+    font-size: 20px;
+    /*background-color: blue;*/
+}
+#content{
+    position: absolute;
+    top: 0;
+    left: 20%;
+    width: 80%;
+    /*background-color: red;*/
+}
+.canvas {
+    margin: 0 auto;
+    width: 800px;
+    height: 500px;
+    background-color: #000;
+    box-shadow: 10px 10px  20px #fff,0 -10px  20px #fff, -10px 0px 20px #fff;
+    border-radius: 20px;
+}
+canvas{
+    width: 100%;
+    height: 100%;
+}
